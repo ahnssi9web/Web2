@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> 처음부터-다시한번-맘대로 </title>
+    <style>
+    </style>
+</head>
+
+
+<script language="JavaScript">
+	var ahnno=-1;
+	ahnno = Math.floor(Math.random() * files.length);
+</script>
+
+
+<body>
+<div id="audio_list">
+    <audio controls autoplay ></audio>
+</div>
+  
+    	
+<p>
+<button id="next"> 다음 것 </button>
+<button id="again"> 한번 더 </button>
+<button id="random"> 맘대로 </button>
+</p>
+<p> 나오지 않으면 다음 것을 누르세요. </p>
+<p id="text2"> </p>      
+<p id="text"> </p>
+
+<script>
+		//
+			document.getElementById('next').addEventListener('click', function(){
+				nextaudio();
+			}, false);
+		//
+			document.getElementById('again').addEventListener('click', function(){
+				againaudio();
+			}, false);
+		//
+			document.getElementById('random').addEventListener('click', function(){
+				randomaudio();
+			}, false);
+		//
+
+</script>
+
+
+<script>
+		// Playlist array
+		var files = [
+				
+				"https://ahnssi9web.github.io/AHNsong11/내음악/2AM - 죽어도 못 보내.mp3",
+				"https://ahnssi9web.github.io/AHNsong11/내음악/눈물젖은 두만강 - 김정구.mid.mp3",
+				"https://ahnssi9web.github.io/AHNsong11/내고전/Mozart_Sym_No.40_inGminor_k.550_3.Minuetto.Allegro_SalzburgMozarteumOrchestra_HansGraf.mp3",
+				"https://ahnssi9web.github.io/AHNsong11/내고전/Mozart_Sym_No.40_inGminor_k.550_4.Allegro_assai_SalzburgMozarteumOrchestra_HansGraf.mp3"
+			
+		];
+		
+
+		// Get the audio element
+		var audio_player = document.querySelector("#audio_list audio");
+		
+
+</script>
+
+
+
+<script>
+
+		// function for moving to next audio file
+		function nextaudio() {
+			// Check for last audio file in the playlist
+			if (ahnno === files.length - 1) {
+				ahnno= 0;
+			} else {
+				ahnno++;
+			}
+			audio_player.src = files[ahnno];
+			// Listen for the audio ended event, to play the next audio file
+			audio_player.addEventListener('ended', nextaudio, false)
+			var str = document.getElementById("text");
+			str.innerHTML = files[ahnno];
+
+			var str2 = document.getElementById("text2");
+			str2.innerHTML = ahnno;
+			}
+	
+	
+		function againaudio() {
+			// Change the audio element source
+			// audio_player.src = files[i];
+			audio_player.src = files[ahnno];
+			// Listen for the audio ended event, to play the next audio file
+			audio_player.addEventListener('ended', nextaudio, false)
+			
+			var str = document.getElementById("text");
+			str.innerHTML = files[ahnno];
+
+			var str2 = document.getElementById("text2");
+			str2.innerHTML = ahnno;			
+		}
+		
+			
+			
+		// function for moving to next audio file
+		function randomaudio() {
+			// Check for last audio file in the playlist
+			// Check for last audio file in the playlist
+			ahnno = Math.floor(Math.random() * files.length);
+			if (ahnno === files.length - 1) {
+				ahnno= 0;
+			} 
+			audio_player.src = files[ahnno];
+			// Listen for the audio ended event, to play the next audio file
+			audio_player.addEventListener('ended', randomaudio, false)
+			var str = document.getElementById("text");
+			str.innerHTML = files[ahnno];
+
+			var str2 = document.getElementById("text2");
+			str2.innerHTML = ahnno;
+			}
+
+
+</script>
+
+</body>
+</html>
+audio
+

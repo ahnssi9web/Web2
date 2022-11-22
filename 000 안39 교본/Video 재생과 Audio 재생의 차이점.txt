@@ -1,0 +1,38 @@
+
+	<div id="video_list">
+		<video controls autoplay width="400px" height="400px"  target="idx-contents" ></video>
+	</div>
+	 
+
+         let _video = document.querySelector('#video_list video');
+
+</script>
+
+<script>
+      function nextvideo() {
+         // Check for last audio file in the playlist
+         if (ahnno > files.length - 2) {
+            ahnno= 0;
+         } else {
+            ahnno++;
+         }
+===========================================
+
+<div id="video_list">
+    <audio controls autoplay ></audio>
+</div>
+
+ let _video = document.querySelector('#video_list audio');
+
+</script>
+
+<script>
+      function nextvideo() {
+         // Check for last audio file in the playlist
+         if (ahnno > files.length - 2) {
+            ahnno= 0;
+         } else {
+            ahnno++;
+         }
+
+

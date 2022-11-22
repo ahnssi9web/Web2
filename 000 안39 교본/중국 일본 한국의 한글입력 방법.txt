@@ -1,0 +1,30 @@
+
+영문 컴퓨터 환경에서 한글 쓰기
+
+
+
+
+윈도우 CD가 없으면
+If you don't have original Windows CD (almost travelers)
+please download & install one of these programs
+아래 프로그램 중 하나를 다운 받아서 사용하세요
+
+
+Unionway Asiansuite X2: [Download] [Product info] [Hangul Input]
+
+http://page.unionway.com/5.html
+
+
+
+
+NJStar communicator : [Download] [Product info]
+
+http://www.njstar.com/cms/njstar-communicator-download
+
+ 
+
+
+만약 윈도우 CD가 있다면 -> 한국어를 인스톨 하면 됨
+If you have original Windows CD -> please intall Korean language
+start button > settings > Control Panel > Regional Options 
+ 
