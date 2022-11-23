@@ -1,0 +1,9 @@
+Dear User,
+
+You just withdraw successfully on BitMart.
+
+Time: 2022-06-05 09:52:42 (Asia/Seoul)
+Withdrawal Address: 0xd318DFA7Dad59007A754E4c4b593A9Bb78E23aBd
+Amount: 0.06 BNB-BEP20
+
+====================================================================

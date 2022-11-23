@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head profile="http://www.w3.org/2005/10/profile">
+     <title> github 404 error 대책 </title>   
+ 	<meta charset="utf-8"/>
+	<link rel="icon" type="image/png" href="http://example.com/myicon.png"> 
+	/* <link rel="shortcut icon" href="#"> */
+
+	<style>
+	   img {
+		  border: 1px solid #ddd;
+		  padding: 5px;
+		  width: 300px;
+		  height : 300px;
+	 	  border-radius: 4px; 
+	 	  border-radius: 50%; 
+	       }
+	</style>			 
+			 
+</head>
+
+<body>
+	<ul>
+<img src="https://ahnssi9web.github.io/web1/500마무리/2022-07-17 우클레레/2022-07-17 우클렐레 연습 자랑 35님들에게.png">
+<img src="https://ahnssi9web.github.io/web1/500마무리/2022-07-17 우클레레/2022-07-17 우클렐레 연습 자랑 상덕에게.png">
+<img src="https://ahnssi9web.github.io/web1/500마무리/2022-07-17 우클레레/2022-07-17 우클렐레 연습 자랑 용미슬에게.png">
+<br><br>
+<br><br>
+
+
+<li><a href="https://ahnssi9web.github.io/web1/500마무리/2022-07-18 브이콜밴 주차 시비/[경위서] 2022년 7월 18일 오후5시 50분 브이콜밴과 주차 문제로 다툼이 생김.pdf">다툼이 생김.pdf</a></li><br>
+<br><br>
+<br><br>
+
+<li><a href="https://ahnssi9web.github.io/web1/500마무리/2022-07-17 우클레레/KakaoTalk_20220719_175849818.mp4"> 2022-07-17 우클레레/KakaoTalk_20220719_175849818.mp4 </a></li><br>
+<li><a href="https://ahnssi9web.github.io/web1/500마무리/2022-07-17 우클레레/KakaoTalk_20220719_175849819.mp4"> 2022-07-17 우클레레/KakaoTalk_20220719_175849819.mp4 </a></li><br>
+<br><br>
+<br><br>
+		
+<video controls  autoplay  width="400px" src="https://ahnssi9web.github.io/web1/500마무리/2022-07-17 우클레레/KakaoTalk_20220719_175849818.mp4" target="ahn23"></video><br><br>
+<video controls  width="400px" src="https://ahnssi9web.github.io/web1/500마무리/2022-07-17 우클레레/KakaoTalk_20220719_175849819.mp4" target="ahn23"></video><br><br>
+	</ul>
+</body>
+</html>
