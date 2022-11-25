@@ -854,9 +854,12 @@
            function getImageTag() { var img = '<img src=\"'; 
            var randomIndex = Math.floor(Math.random() * imageURLs.length); 
                                 img += imageURLs[randomIndex]; 
-                                img += '\" alt=\" --->> Something wrong -----> check.... \"/>'; 
+                                img += '\"  target="idx-contents" />';  
+				img += imageURLs[randomIndex]; 
                                 return img; } 
             // 줄바꿈   
+		
+		
            document.write("");
            // <<hr> 줄을 긋는 HTML 태그
            document.write("<hr>");
